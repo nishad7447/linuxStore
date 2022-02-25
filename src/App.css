@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.Header{
+  background-color: #4400b1;
+  /* width: 1080px;
+  height: 87px; */
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  
+  padding-right: 20px;
+  
+
+}
+
+.btn{
+  color: white;
+  text-decoration: none;
+  padding: 9px;
+  font-family: Roboto;
+  font-weight: 700;
+  background-color: #9757FF;
+  border: 2px double black;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 18px;
+  margin: right 20px;
+  
+}
+.btn:hover{
+  background-color: #30283d;
+}
+
+.Header input{
+  background-color: #9757FF;
+  padding: 9px;
+  border-radius: 9px;
+  
+}
+
+.Header a{
+  margin-right: 10px;
+}
+
+.Pic img{
+  margin: 12px;
+
+  width: 97%;
+  height: 400px;
+}
+
+.Popular img{
+  border: 2px double black;
+  width: 80px;
+    height: 110px;
+    padding: 0;
+    background-color: red;
+}
+
+.popcontent{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  
+}
+.popName{
+  text-align: center;
+}
+
+footer{
+  background-color: #4400b1;
+  padding: 26px;
+  margin: 0;
+}
+.recently section{
+  padding-bottom: 300px;
+  margin: 2%;
+}
+.pop{
+  margin: 2%;
+}
